@@ -1,0 +1,68 @@
+body {
+    font-size: 0.875rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: space-between; /* Spread items from top to bottom */
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    background: linear-gradient(45deg, #ff7eb3, #b65f8a);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.sidebar-brand {
+    font-size: 1.8rem; /* Increased font size for Brand Name */
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem; /* Increased font size for sidebar items */
+    margin-bottom: 15px; /* Increased spacing between menu items */
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.main-content {
+    margin-left: 220px;
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card .fa-2x {
+    opacity: 0.9;
+}
+
+.header {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+
